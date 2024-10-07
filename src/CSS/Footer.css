@@ -1,0 +1,56 @@
+.footer-container {
+    text-align: center;
+    padding: 24px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-top: 1px solid lightgray;
+}
+
+.hover-text {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.hover-text:hover {
+    color: green;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        padding: 16px 10px;
+    }
+
+    .hover-text {
+        font-size: 14px;
+    }
+
+    .text-footer {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .footer-container {
+        padding: 16px 10px;
+    }
+
+    .hover-text {
+        font-size: 14px;
+    }
+
+    .text-footer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer-container {
+        padding: 16px 10px;
+    }
+
+    .text-footer {
+        font-size: 7.5px;
+    }
+}
